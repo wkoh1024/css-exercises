@@ -16,7 +16,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 10px;
-  /* margin-top is overridden by .card padding unless it is greater than it*/
 }
 
 .content {
@@ -40,3 +39,5 @@ button {
   padding: 7px 20px;
   margin: 0 auto;
 }
+
+/* zero our margins if unsure what is causing unadded space */ 
