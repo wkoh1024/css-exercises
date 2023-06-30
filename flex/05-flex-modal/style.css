@@ -21,13 +21,26 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2); 
   display: flex;
-  flex-wrap: wrap;
   padding: 20px; 
+  flex-wrap: wrap;
 }
 
 .header {
   font-size: 1.2em;
   font-weight: bold;
+  margin-left: 12px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.mid-section {
+  margin-left: 52px;
+}
+
+.icon, .close-button {
+  flex-shrink: 0;
 }
 
 .icon {
