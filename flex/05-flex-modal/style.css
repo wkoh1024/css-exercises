@@ -25,6 +25,11 @@ body {
   padding: 20px; 
 }
 
+.header {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
