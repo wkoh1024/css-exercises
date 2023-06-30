@@ -11,12 +11,17 @@ img {
 .items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
-.text {
+.break {
   order: 1;
+  flex-basis: 100%;
+}
+
+.text {
+  order: 2;
   flex:  0 0 200px;
   text-align: center;
 }
